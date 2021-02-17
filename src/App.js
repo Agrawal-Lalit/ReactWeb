@@ -4,16 +4,18 @@ import Home from "./Home";
 import About from "./About";
 import Connect from "./Connect";
 import Cards from "./Cards";
+import Error from "./Error";
 import './App.css';
 const App=()=>{
   return 
   (<>
+  <h2>Hey </h2>
    <Switch>
-     <Route path="/" component={Home}><Home/></Route>
-     <Route path="/about" component={About}><About/></Route>
-     <Route path="/connect" component={Connect}><Connect/></Route>
-     <Route path="/cards" component={Cards}><Cards/></Route>
-     <Route component={Error}></Route>
+     <Route path="/" component={Home}/>
+     <Route path="/about" component={About}/>
+     <Route path="/connect" component={Connect}/>
+     <Route path="/cards" component={Cards}/>
+     <Route component={Error}/>
    </Switch>
   </>
     
