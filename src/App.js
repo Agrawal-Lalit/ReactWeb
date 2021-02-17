@@ -3,7 +3,7 @@ import {Switch,Route  } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Connect from "./Connect";
-import Cards from "./Cards.jsx";
+import Cards from "./Cards";
 import './App.css';
 const App=()=>{
   return 
