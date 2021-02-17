@@ -1,11 +1,13 @@
 import React from 'react';
-
-const Cards=()=>
+import './Cards.css';
+function Cards(props)
 {
-    return(
-        <>
-        <h2>Basic cards app component</h2>
-        </>
-    );
+  return (
+  <div className='cards'>
+    <img src={props.link} alt="card" ></img>
+    <h2>{props.title}</h2>
+    <p>{props.brief}</p>
+</div>
+  );
 }
 export default Cards;

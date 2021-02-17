@@ -1,0 +1,71 @@
+.cardSpace
+{   display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    margin:0px;
+    padding:0px;
+    text-align:justify;
+    background-color: #1b2b3b;
+}
+.cards
+{
+    position: relative;
+    width:25%;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+    height:fit-content;
+    box-shadow: 2px 2px 12px rgb(56, 46, 31);
+    margin:7px;
+    padding:5px;
+    border-radius:10px;
+    background-color: white;
+}
+.cards img
+{
+    width:100%;
+    height:40%;
+}
+.cards h2
+{  
+    font-size: 2em;
+   color: crimson;
+   margin:0px;
+   padding:0px;
+   text-align: center;
+}
+.cards h3
+{
+    font-size: 1.3em;
+   color: rgb(143, 15, 41);
+   margin:0px;
+   padding:0px;
+   text-align:left;
+}
+.toptab
+{
+    width:100%;
+    height:40%;
+    display: flex;
+}
+button
+{
+    flex: 1;
+    margin:2px;
+    width:auto;
+    cursor: pointer;
+
+}
+button:hover
+{
+    background-color: rgb(243, 155, 96);
+}
+@media only screen and (max-width: 800px)
+{
+    .cards{width:40%;height:fit-content;}
+}
+@media only screen and (max-width: 500px)
+{
+    .cards{width:70%;height:fit-content;}
+
+}

@@ -1,0 +1,40 @@
+.brand-name
+{
+    font-size: 2em;
+    color:rgb(8, 255, 119);
+    text-shadow: 2px 2px 2px rgb(250, 55, 55);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2
+{
+    text-align:center ;
+    background-color: rgba(255, 255, 255, 0.897);
+    mix-blend-mode:screen;
+}
+h3{background-color: rgba(255, 255, 255, 0.664);}
+.main-home
+{
+    background-image: url(./images/backpic.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.data
+{
+    justify-content: center;
+    display:block;
+}
+#conpic
+{
+    animation:rot;
+    animation-iteration-count: infinite;
+                animation-duration: 1.8s;
+                transition:ease-in-out;
+}
+@keyframes rot
+{
+    0%{transform:rotateZ(0deg);}
+    50%{transform:rotateZ(5deg);}
+    100%{transform:rotateZ(0deg);}
+}
